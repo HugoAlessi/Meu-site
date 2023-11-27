@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/html-5.512.png" type="image/x-icon">
+    <link rel="stylesheet" href="Login_Cadastro.css">
+    <title>Login e Cadastro</title>
+</head>
+<body>
+    <header class="header">
+        <a href="meu_site.html" class="vitoria-logo">
+            <img src="Img/Sem título.png"></img>
+        </a>
+
+        <div class="ul1">
+            <div class="Pesquisar">
+                <form action="/search" method="get" class="caixaEbotao">
+                    <div>
+                        <input type="search" id="caixatexto" placeholder="  O que manda hoje?">
+                    </div>
+
+                    <div>
+                        <button type="submit" id="botao-pesquisa"><ion-icon name="search-outline"></ion-icon></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="ul2">
+            <div class="cx cx1">
+                <button type="button" class="botao-header">
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <p class="text tx1">Favoritos</p>
+                </button>
+            </div>
+
+            <div class="cx cx2">
+                <a href="Minha sacola.html">
+                    <button type="button" class="botao-header">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                        <p class="text tx2">Sacola</p>
+                    </button>
+                </a>
+            </div>
+            
+            <div class="cx cx3">
+                <a href="Login_Cadastro.html">
+                    <button type="button" class="botao-header">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <p class="text tx3">Minha conta</p>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <!--login-cadastro-->
+    <div class="pai">
+
+        <div class="contain">
+
+            <div id="title">
+                <h1>Login do cliente</h1>
+            </div>
+
+            <form id="login" action="/login" method="post">
+
+                <h3>Já é cadastrado?</h3>
+                <p>Então entre com seus dados de login e senha</p>
+
+                <label for="E-mail">Seu E-mail:</label>
+                <br>
+                
+                <input type="text" id="texto" name="text" required>
+                <br><br>
+
+                <label for="password">Sua Senha:</label>
+                <br>
+
+                <input type="password" id="senha" name="password" required>
+                <br><br>
+
+                <a href="#">Esqueceu sua senha?</a>
+                <br><br>
+
+                <button type="button" class="login-cadastro">ENTRAR</button>
+                <br><br>
+
+                <p>Entrar com sua conta Facebook ou Google</p>
+
+                <div class="icon-login">
+                    <a href="#"><ion-icon name="logo-google" class="click-edit"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-facebook" class="click-edit"></ion-icon></a>
+                </div>
+
+            </form>
+            <form id="cadastro" action="/cadastro" method="post">
+                <h3>Ainda não é cadastrado?</h3>
+                <p>Faça agora o seu cadastro</p>
+
+                <label for="email">E-mail:</label>
+                <br>
+                            
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                
+                <label for="password">Senha:</label>
+                <br>
+                            
+                <input type="password" id="senha2" name="password" required>
+                <br><br>
+                
+                <label for="cpf">CPF:</label>
+                <br>
+
+                <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="123.456.789-01" required>
+                <br><br>
+                            
+                <label for="name">Nome:</label>
+                <br>           
+                        
+                <input type="text" id="name" name="name" required>
+                <br><br>
+        
+                <label for="birthdate">Data de Nascimento:</label>
+                <br>            
+                    
+                <input type="date" id="birthdate" name="birthdate" required>
+                <br><br>
+                
+                <label for="gender">Sexo:</label>
+                <br>            
+                            
+                <select id="sexo" name="gender" required>
+
+                    <option value="other">Outro</option>
+                    <option value="male">Masculino</option>         
+                    <option value="female">Feminino</option>     
+                    
+                </select>
+                <br><br>
+                
+                <label for="phone">Telefone:</label>
+                <br>          
+                        
+                <input type="tel" id="phone" name="phone" pattern="\(\d{2}\)\s\d{4,5}-\d{4}" placeholder="(00) 12345-6789" required>
+                <br><br>
+            
+                <button type="submit" class="login-cadastro">CADASTRAR</button>
+            </form>
+        </div>
+    </div>
+    
+     <!--Rodapé-->
+     <footer class="Pai">
+        <div class="contain">
+            <div class="Rp1">  
+                <div>
+                    <h2>Departamentos</h2>
+                    <a href="#"><p>Futebol</p></a>  
+                    <a href="#"><p>Basquete</p></a>  
+                    <a href="#"><p>Volêi</p></a>  
+                    <a href="#"><p>Tênis</p></a>  
+                    <a href="#"><p>Beach Tênis</p></a>  
+                    <a href="#"><p>Futvolêi</p></a>  
+                </div>
+
+                <div>
+                    <h2>Institucional</h2>
+                    <a href="sobre_loja.html"><p>Sobre a Loja</p></a>  
+                    <a href="#"><p>Políticas do Site e Marketplace</p></a>  
+                    <a href="#"><p>Políticas de Cookies</p></a>  
+                    <a href="#"><p>Políticas de Privacidade</p></a>  
+                    <a href="#"><p>Código de Defesa do Consumidor</p></a>   
+                    <a href="#"><p>Exerça seus Direitos de Privacidade</p></a>   
+                    <a href="#"><p>Código de Conduta e Ética</p></a>   
+                    <a href="#"><p>Segurança & Privacidade</p></a>   
+                </div>
+
+                <div>
+                    <h2>Atendimento</h2>
+                    <div href="#">
+                        <p>Horário de atendimento:
+                        <br>
+                        08:00 às 20:00 -
+                        Segunda a Sábado,
+                        <br>
+                        horário de Brasília
+                        <br>(Exceto domingo e feriados)</p>
+                    </div>  
+
+                    <div href="#">
+                        <p>Endereço: 
+                            <br>
+                            Rua Silva Jardim, 451 - 
+                            <br>
+                            centro Itapetininga/SP - 
+                            <br>
+                            CEP:18200010</p>
+                    </div> 
+
+                    <div href="#">
+                        <h3>Escritório:</h3>
+                        <p>(15) 3271-8325</p>
+                    </div>  
+                    <div href="#">
+                        <h3>Email:</h3>
+                        <p>Caicomatarazzo@gmail.com</p>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="Rp2">
+                <div id="Pg">
+                    <div>
+                        <h2>Formas de Pagamento</h2>
+                        <img src="img/amazon.png">
+                        <img src="img/americanexpress.png">
+                        <img src="img/delta.png">
+                        <img src="img/discover.png">
+                        <img src="img/ebay.png">
+                        <img src="img/maestro.png">
+                    </div>
+                    <div>
+                        <img src="img/mastercard.png">
+                        <img src="img/paypal.png">
+                        <img src="img/solo.png">
+                        <img src="img/stripe.png">
+                        <img src="img/switch.png">
+                    </div>
+                </div>
+
+                <div id="Sg">
+                    <h2>Certificado de Segurança</h2>
+                    <img src="img/reclame_aqui.jpg" alt="Reclame Aqui">
+                    <img src="img/safebrowser.png" alt="Safe Browsing">
+                    <img src="img/seal.png" alt="Seal">
+                </div>
+            </div>
+
+            <div class="Rp3">
+                <div id="Logo">
+                    <a href="#topo"><img src="img/Logo_Vitória.png"></a>
+                </div>
+        
+                <div id="social">
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://www.facebook.com/vitoria.esportes" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+            <div id="copy">
+                <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+            </div>
+        
+        </div>
+    </footer>
+
+
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+</body>
+</html>

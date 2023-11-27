@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="finalizar_pedido.css">
+    <title>Minha sacola</title>
+</head>
+<body>
+    <header class="header">
+
+        <a href="meu_site.html" class="vitoria-logo">
+            <img src="Img/Sem título.png"></img>
+        </a>
+
+        <div class="ul1">
+            <div class="Pesquisar">
+                <form action="/search" method="get" class="caixaEbotao">
+                    <div>
+                        <input type="search" id="caixatexto" placeholder="  O que manda hoje?">
+                    </div>
+                    <div>
+                        <button type="submit" id="botao-pesquisa"><ion-icon name="search-outline"></ion-icon></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="ul2">
+            <div class="cx cx1">
+                <button type="button" class="botao-header">
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <p class="text tx1">Favoritos</p>
+                </button>
+            </div>
+
+            <div class="cx cx2">
+                <a href="Minha sacola.html">
+                    <button type="button" class="botao-header">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                        <p class="text tx2">Sacola</p>
+                    </button>
+                </a>
+            </div>
+            <div class="cx cx3">
+                <a href="Login_Cadastro.html">
+                    <button type="button" class="botao-header">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <p class="text tx3">Minha conta</p>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav2">
+        <a href=""><div class="categoria">Esportes</div></a>
+        <a href=""> <div class="categoria">Feminino</div></a>
+        <a href=""><div class="categoria">Masculino</div></a>
+        <a href=""><div class="categoria">Infaltil</div></a>
+        <a href=""><div class="categoria">Acessórios</div></a>
+        <a href=""><div class="categoria">Equipamentos</div></a>
+        <a href=""><div class="categoria">Marcas</div></a>
+    </nav>
+
+    <div class="contain-sacola">
+
+        <div class="pai">
+
+            <div class="filho">
+
+                <header id="meucarTx">
+                    <h2>Sua sacola</h2>
+                </header>
+
+                <article class="Titulo">
+
+                    <header id="Tx1">
+                        <p><strong>Produto</strong></p>
+                    </header>
+
+                    <header id="Tx2">
+                        <div><p><strong>Total</strong></p></div>
+                    </header>
+
+                </article>
+                <div class="linha">
+
+                    <div class="nomepro-desc">
+                        <div>
+                            <header class="nome">Produto (2)</header>
+                            <div class="categoria">Lorem ipsum</div>
+                        </div>
+                    </div>
+
+                    <div class="totalProduto"><h4>R$ 999,99</h4></div>
+                </div> 
+                <div class="linha">
+
+                    <div class="nomepro-desc">
+                        <div>
+                            <header class="nome">Produto (3)</header>
+                            <div class="categoria">Lorem ipsum</div>
+                        </div>
+                    </div>
+
+                    <div class="totalProduto"><h4>R$ 999,99</h4></div>
+                </div> 
+                <div class="linha">
+
+                    <div class="nomepro-desc">
+                        <div>
+                            <header class="nome">Produto (1)</header>
+                            <div class="categoria">Lorem ipsum</div>
+                        </div>
+                    </div>
+
+                    <div class="totalProduto"><h4>R$ 999,99</h4></div>
+                </div> 
+            </div>
+            
+            <aside class="CaixaResumo">
+
+                    <header id="ResumoPedido">
+                        <h3>Resumo do pedido</h3>
+                    </header>
+
+                    <div class="sub">
+                        <div>sub total (# protudo)</div>
+                        <div>R$ 999,99</div>
+                    </div>
+
+                    <div class="frete">
+                        <div>Frete</div>
+                        <div>R$ 999,99</div>
+                    </div>
+
+                    <div class="total">
+                        <div class="totaltx">Total</div>
+                        <div class="totaltx">R$ 999,99</div>
+                    </div>
+            </aside>
+        </div>
+    </div>
+    
+    <div class="entrega_pagamento">
+        <div class="endereco-entrega">
+            <h2>Frete:</h2>
+            <div class="cx-endereco">
+                <a href="#" class="endereco">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem sed laboriosam,</p>
+                    <p>Alterar</p>
+                </a>
+            </div>
+
+            <div class="cx-entrega-valor">
+                <form action="tipo-entrega">
+                    <input type="radio" name="entrega">
+                    <label for="">Entrega Padrão - Grátis</label> - Até 4 dias úteis
+                    <br><br>
+
+                    <input type="radio" name="entrega">
+                    <label for="">Entrega Rápida - R$ 10,00</label> - Até 2 dias úteis
+                    <br><br>
+
+                    <input type="radio" name="entrega">
+                    <label for="">Retirar na Loja</label>
+                </form>
+
+                <div class="cupom">
+                    <input type="text" id="cupom" name="cupom" placeholder="Cupom de Desconto">
+                    <button type="button">Aplicar Cupom</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="forma-pagamento">
+            <form class="cx-pagamento">
+                <label for="pagamento"><h2>Forma de Pagamento:</h2></label>
+                <br><br>
+
+                <input type="radio" name="pagamento">
+                
+                <label for="">Cartão de Débito</label>
+                <br><br>
+
+                <input type="radio" name="pagamento">
+                <label for="">Cartão de crédito</label>
+                <br><br>
+
+                <input type="radio" name="pagamento">
+                <label for="">Boleto</label>
+                <br><br>
+                <input type="radio" name="pagamento">
+                <label for="">Pix</label>
+
+            </form>
+
+            <div class="cxbotao">
+                <button class="botao-finalizar">COMPRAR</button>
+            </div>    
+        </div>
+    </div>
+
+<!--Rodapé-->
+    <footer class="Pai">
+        <div class="contain">
+            <div class="Rp1">  
+                <div>
+                    <h2>Sub Rodapé</h2>
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                </div>
+                <div>
+                    <h2>Sub Rodapé</h2>
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                </div>
+                <div>
+                    <h2>Sub Rodapé</h2>
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>   
+                </div>
+                <div>
+                    <h2>Sub Rodapé</h2>
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>  
+                    <a href="#"><p>Link rodapé</p></a>    
+                </div>
+            </div>
+
+            <div id="Rp2">
+                <div id="Pg">
+                    <div>
+                        <h2>Formas de Pagamento</h2>
+                        <img src="img/amazon.png">
+                        <img src="img/americanexpress.png">
+                        <img src="img/delta.png">
+                        <img src="img/discover.png">
+                        <img src="img/ebay.png">
+                        <img src="img/maestro.png">
+                    </div>
+                    <div>
+                        <img src="img/mastercard.png">
+                        <img src="img/paypal.png">
+                        <img src="img/solo.png">
+                        <img src="img/stripe.png">
+                        <img src="img/switch.png">
+                    </div>
+                </div>
+
+                <div id="Sg">
+                    <h2>Certificado de Segurança</h2>
+                    <img src="img/reclame_aqui.jpg" alt="Reclame Aqui">
+                    <img src="img/safebrowser.png" alt="Safe Browsing">
+                    <img src="img/seal.png" alt="Seal">
+                </div>
+            </div>
+
+            <div class="Rp3">
+                <div id="Logo">
+                    <a href="#topo"><img src="img/Logo_Vitória.png"></a>
+                </div>
+        
+                <div id="social">
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://www.facebook.com/vitoria.esportes" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+            <div id="copy">
+                <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+            </div>
+        
+        </div>
+    </footer>
+
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+</body>
+</html>

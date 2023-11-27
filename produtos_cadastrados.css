@@ -1,0 +1,355 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(192, 255, 187), #ffeb9a);
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    background: linear-gradient(to bottom, rgb(54, 204, 46), #ffcc00);
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.ul1{
+    margin-left: 50px;
+}
+
+.ul2 {
+    display: flex;
+}
+
+.cx {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    height: 40px;
+    width: 140px;
+}
+.cx3 button {
+    width: 160px;
+}
+
+div ion-icon {
+    font-size: 25px;
+    margin-top: 5px;
+}
+.botao-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: transparent;
+    border: 0;    
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+    
+}
+
+.Pesquisar {
+    background-color: white;
+    width: 540px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+#botao-pesquisa {
+    border: 0;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+}
+#botao-pesquisa ion-icon{
+    color: black;
+}
+
+#caixatexto {
+    width: 500px;
+    height: 40px;
+    border-radius: 3px;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+}
+
+.caixaEbotao {
+    display: flex;
+    background-color: white;
+    width: 440px;
+    height: 30px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+a {
+    text-decoration: none;
+}
+
+.nav2 {
+    background: linear-gradient(to right, rgb(192, 255, 187), #ffeb9a);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+}
+
+/*cadastro*/
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+}
+
+.sidebar-item a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+.form-item {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form-item button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-item button:hover {
+    background-color: #45a049;
+}
+
+/*Sacola*/
+
+.contain-sacola {
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.pai{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.filho{
+    width: 650px;
+    margin-left: 20px;
+}
+
+#meucarTx {
+    width: 600px;
+    margin-left: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Titulo {
+    display: flex;
+    width: 800px;
+    margin-left: 30px;
+    border-bottom: 2px solid #ccc;
+
+}
+.elemento-com-imagem {
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 6px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nome{
+    font-size: 20px;
+}
+.categoria{
+    color:rgb(44, 44, 44);
+}
+#Tx1 {
+    width: 100px;
+    margin-left: 30px;
+}
+#Tx2 {
+    width: 250px;
+    align-items:center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+}
+
+.nomepro-desc {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.linha {
+    width: 800px;
+    height: 130px;
+    margin-left: 30px;
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    justify-content: space-around;
+    
+}
+
+.quant{
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: center;
+    min-width: 10px;
+    height: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+span{
+    margin: 0 5px;
+}
+
+.botao-ed-del button {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.botao-ed-del button:hover {
+    background-color: #ddd;
+}
+.contain-sacola ion-icon{
+    margin-top: 1px;
+}
+
+.totalProduto {
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+/* Footer-Rodapé */
+footer .Pai {
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    position: relative;
+}
+
+footer .contain {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.Rp1 {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+    flex-wrap: wrap; 
+}
+
+#Rp2 {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+#Pg,
+#Sg {
+    width: 48%; 
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+#Pg img {
+    width: 10%; 
+    margin: 10px;
+}
+
+#Sg img {
+    width: 40%; 
+    margin: 10px;
+}
+
+.Rp3 {
+    border-top: 1px solid #ccc;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+#social ion-icon {
+    color: black;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+#Logo {
+    margin-top: 10px;
+}
+
+#copy {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
