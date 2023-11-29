@@ -207,7 +207,7 @@ a {
 }
 .detalhes-container2 {
     background: linear-gradient(to bottom, rgb(54, 204, 46), #ffcc00);
-    width: 100%;
+    width: 900px;
     height: 400px;
     display: flex;
     margin: 20px;

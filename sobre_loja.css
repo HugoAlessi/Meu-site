@@ -133,11 +133,11 @@ a {
 
 .foto-dev1 .foto-dev2 {
     display: flex;
-
 }
 
+
 .foto-dev2 img {
-    width: 40%;
+    width: 20%;
 }
 
 
