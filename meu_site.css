@@ -13,11 +13,11 @@ body {
     justify-content: space-around;
 }
 
-.ul1 {
+.contain1 {
     margin-left: 50px;
 }
 
-.ul2 {
+.contain2 {
     display: flex;
 }
 
@@ -105,7 +105,7 @@ a {
     text-decoration: none;
 }
 
-.nav2 {
+.cx-categoria {
     background: linear-gradient(to right, rgb(192, 255, 187), #ffeb9a);
     color: #fff;
     padding: 10px;
