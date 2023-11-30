@@ -140,9 +140,7 @@ a {
 
 .corpo-site {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    
 }
 
 .grade {
@@ -152,14 +150,11 @@ a {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    max-width: 250px;
-    box-sizing: border-box;
+    width: 250px;
 }
 .divisoria {
     display: flex;
-}
-.divisoria2 {
-    display: flex;
+    justify-content: center;
 }
 
 .img-produto img {
@@ -168,7 +163,7 @@ a {
     margin-bottom: 10px;
 }
 
-h3 {
+.corpo-site h3 {
     font-size: 19px;
     margin-bottom: 10px;
     color: black;
@@ -187,10 +182,12 @@ h3 {
 .valor-produto strong {
     color: #333;
 }
+
 .add-car {
     margin-left: 160px;
     color: black;
 }
+
 .add-car ion-icon {
     font-size: 50px;
 }

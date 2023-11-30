@@ -117,7 +117,14 @@ a {
 }
 
 /*detalhes do produto*/
+.cx-justf {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
 .detalhes-container {
+    width: 1500px;
     height: 450px;
     display: flex;
     align-items: center;
@@ -205,14 +212,23 @@ a {
 .cx-botao button:hover {
     background-color: #45a049;
 }
+
+#cx-justf2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10PX;
+}
+
+#cx-100 {
+    width: 1500px;
+}
+
 .detalhes-container2 {
     background: linear-gradient(to bottom, rgb(54, 204, 46), #ffcc00);
     width: 900px;
     height: 400px;
     display: flex;
-    margin: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 .caract {
@@ -237,6 +253,7 @@ footer .contain {
     width: 100%;
     max-width: 1200px; 
     margin: 0 auto; 
+    margin-top: 50px;
 }
 
 .Rp1 {
